@@ -15,10 +15,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
-  <!-- Шапка-->
+  <!-- header-->
 
   <body>
     <header class="page-header">
@@ -26,29 +26,29 @@
         <nav class="page-navigation">
           <a class="logo link" href=""><span class="accent">Web</span>Studio </a>
           <ul class="menu list">
-            <li class="menu-item">
-              <a href="#" class="menu-link current link">Студія</a>
+            <li class="menu__item">
+              <a href="#" class="menu__link current link">Студія</a>
+            </li>
+            <li class="menu_item">
+              <a href="./portfolio.html" class="menu__link link">Портфоліо</a>
             </li>
             <li class="menu-item">
-              <a href="./portfolio.html" class="menu-link link">Портфоліо</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-link link">Контакти</a>
+              <a href="#" class="menu__link link">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="contact list">
-          <li class="menu-item">
+          <li class="menu__item">
             <a class="contact-mail link" href="mailto:info@devstudio.com">
-              <svg class="icon-envelope">
+              <svg class="icon__envelope">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="menu-item">
+          <li class="menu__item">
             <a class="contact-phone-number link" href="tel:+380961111111">
-              <svg class="smartphone">
+              <svg class="smart__phone">
                 <use href="./images/sprite.svg#icon-smartphone"></use>
               </svg>
 
@@ -62,7 +62,7 @@
     <!-- Hero -->
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button" data-modal-open>Замовити послугу</button>
       </section>
 

@@ -1,0 +1,41 @@
+.section-container {
+    display: flex;
+}
+
+
+.benefit-list {
+    display: flex;
+    column-gap: 30;
+
+
+&.title {
+    margin-bottom: 10px;
+}
+
+&.text,
+.team-list .text {
+    color: var(--secondary-text-color);
+}
+}
+.elements {
+    margin-right: 30px;
+    column-gap: 30px;
+}
+
+.antenna-box {
+    display: flex;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #F5F4FA;
+}
+
+.antenna-icon {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}

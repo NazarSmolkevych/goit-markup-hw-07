@@ -11,11 +11,6 @@
     align-items: center;
 }
 
-.menu {
-    display: flex;
-    column-gap: 50px;
-}
-
 .icon__envelope {
     width: 16px;
     height: 12px;
@@ -44,8 +39,12 @@
 .accent {
     color: var(--accent-color);
 }
+.menu {
+    display: flex;
+    column-gap: 50px;
 
-.menu .link {
+
+&.link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -61,7 +60,7 @@
 }
 
     
-.menu .current::after {
+&.current::after {
     position: absolute;
     content: "";
     display: block;
@@ -74,18 +73,17 @@
     background-color: var(--accent-color);
     border-radius: 2px;
 }
-
+}
 
 .menu__link:hover,
 .menu__link:focus {
     color: var(--accent-color);
 }
 
-    .menu__link.current {
+.menu__link.current {
         color: var(--accent-color);
 
     }
-
 
 .contact-mail {
     font-style: normal;
